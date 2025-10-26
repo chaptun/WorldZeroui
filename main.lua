@@ -10,6 +10,7 @@ local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Workspace = game:GetService("Workspace")
+local Config = _G.CONFIG or {}
 
 local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
